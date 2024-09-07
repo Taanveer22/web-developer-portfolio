@@ -113,8 +113,8 @@ main {
 }
 
 
-/* about section styles */
-.about {
+/* about-me section styles */
+.about-me {
     padding: 120px;
     border-radius: 10px;
     background: #FFF8F3;
@@ -165,7 +165,7 @@ main {
 }
 
 /* resume section styles */
-.resume {
+.a-summary-of-my-resume {
     margin-bottom: 130px;
 }
 
@@ -197,4 +197,46 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer related styles */
+.port-footer {
+    background: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 24px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-field {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+}
+
+.submit-btn {
+    width: 50%;
 }
