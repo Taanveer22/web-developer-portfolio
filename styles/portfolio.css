@@ -43,6 +43,7 @@ nav {
 .nav-title {
     font-size: 45px;
     font-weight: 800;
+    color: #181818;
 }
 
 nav>ul {
@@ -58,6 +59,8 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
@@ -86,19 +89,19 @@ nav a {
 }
 
 .banner-greeting {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 600;
     color: #474747;
 }
 
 .banner-title {
-    font-size: 75px;
+    font-size: 85px;
     font-weight: 700;
     color: #181818;
 }
 
 .banner-description {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     color: #757575;
 }
@@ -115,7 +118,7 @@ main {
     padding: 120px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
+    margin-bottom: 130px;
 }
 
 .about-info-container {
@@ -129,6 +132,10 @@ main {
 
 
 /* what i do section styles */
+.what-i-do {
+    margin-bottom: 130px;
+}
+
 #wid-description {
     padding: 30px 150px;
 }
@@ -143,4 +150,51 @@ main {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* resume section styles */
+.resume {
+    margin-bottom: 130px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 60px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-duration {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
